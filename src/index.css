@@ -98,7 +98,8 @@ svg {
 /* COMPONENT STYLES -------------------- */
 .scoreboard {
   background: #fff;
-  width: 700px;
+  width: 98vw;
+  max-width: 700px;
   margin: 70px auto;
   box-shadow: 0 2px 0 #E53847;
   border-radius: 6px;
@@ -239,4 +240,29 @@ input[type=submit]:hover {
   font-family: monospace;
   font-size: 2em;
   line-height: 2em;
+}
+
+@media (max-width: 630px) {
+  header h1 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 560px) {
+  .stats {
+    margin: 0;
+    padding-left: 10px;
+  }
+  header h1, .stopwatch h2, .stats td:first-child, .stats td:last-child {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 490px) {
+  .stats {
+    margin-right: -65px;
+    flex-grow: 1;
+  }
+  .title {
+    display: none;
+  }
 }

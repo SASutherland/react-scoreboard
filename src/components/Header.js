@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <header>
       <Stats players={props.players}/>
-      <h1>{props.title}</h1>
+      <h1 class="title">{props.title}</h1>
       <Stopwatch />
     </header>
   );
