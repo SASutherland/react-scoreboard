@@ -6,22 +6,22 @@ import AddPlayerForm from './AddPlayerForm.js';
 const App = () => {
   const [players, setPlayers] = useState([
     {
-      name: "Shawn",
+      name: "Gareth",
       score: 0,
       id: 1
     },
     {
-      name: "Trevor",
+      name: "Jack",
       score: 0,
       id: 2
     },
     {
-      name: "Ashley",
+      name: "Rey",
       score: 0,
       id: 3
     },
     {
-      name: "Michael",
+      name: "Shawn",
       score: 0,
       id: 4
     }

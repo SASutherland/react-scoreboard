@@ -1,4 +1,8 @@
 /* ELEMENT STYLES -------------------- */
+html {
+  margin-left: -5px;
+}
+
 body {
   background: #e8e7e7;
   font-family: arial;
@@ -100,7 +104,7 @@ svg {
   background: #fff;
   width: 98vw;
   max-width: 700px;
-  margin: 70px auto;
+  margin: 0px auto;
   box-shadow: 0 2px 0 #E53847;
   border-radius: 6px;
   overflow: hidden;
